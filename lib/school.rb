@@ -22,9 +22,9 @@ class School
 
   def sort
     @roster.each do |key,value|
-      what = value.sort
-      binding.pry
+      value = value.sort
       @roster
+      binding.pry
     end
   end
 
