@@ -16,7 +16,7 @@ class School
 
   def grade(grade)
     students_in_grade = value_hash = Hash[grade, @roster[grade]]
-    #binding.pry
+    binding.pry
     puts "#{students_in_grade}"
   end
 
