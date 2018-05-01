@@ -6,13 +6,7 @@ class School
 
   def initializes(school)
     @school = school
-    @roster = []
+    @roster = {}
   end
-
-
-
-
-
-
 
 end
