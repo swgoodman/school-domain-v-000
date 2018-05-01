@@ -23,8 +23,9 @@ class School
   def sort
     @roster.each do |key,value|
       value = value.sort
-      @roster
       binding.pry
+      @roster
+
     end
   end
 
