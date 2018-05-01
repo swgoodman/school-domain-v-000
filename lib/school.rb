@@ -13,7 +13,7 @@ class School
     @roster[grade] << student
   end
 
-  def grade(grade)
+  def grade(:grade)
     @roster.each do |key, value|
       if key == :grade
         puts "#{value}"
