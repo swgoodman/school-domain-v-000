@@ -17,7 +17,8 @@ class School
   def grade(grade)
     students_in_grade = []
     if :h == grade
-      puts "#{@roster[:h]}"
+      students_in_grade << @roster[:h]
+      puts "#{students_in_grade}"
     end
   end
 
