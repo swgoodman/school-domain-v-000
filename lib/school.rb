@@ -14,7 +14,7 @@ class School
   end
 
   def grade(grade)
-    puts "#{:roster[grade]}"
+    puts "#{roster[grade]}"
   end
 
 end
