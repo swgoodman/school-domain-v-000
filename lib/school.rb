@@ -5,7 +5,7 @@ class School
   attr_reader :school
 
   def initializes=(school)
-    @school = name
+    @school = school
   end
 
 
