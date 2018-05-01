@@ -10,7 +10,7 @@ class School
 
   def roster=(roster)
     @roster = roster
-    @roster = Hash.new { |roster, name| roster[name] = grade }
+    @roster = {}
   end
 
 end
