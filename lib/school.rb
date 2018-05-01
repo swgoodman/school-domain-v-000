@@ -14,8 +14,8 @@ class School
   end
 
   def grade(grade)
-    students_in_grade = Hash[*@roster.assoc("grade")]
-    puts students_in_grade 
+    students_in_grade = value_hash = Hash[grade, @roster[grade]]
+    puts students_in_grade
   end
 
 
