@@ -22,7 +22,8 @@ class School
 
   def sort
     @roster.each do |key,value|
-      value = value.sort.flatten!
+      value.sort
+      binding.pry
       @roster
       #binding.pry
     end
