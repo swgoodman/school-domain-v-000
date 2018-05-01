@@ -8,7 +8,7 @@ roster = []
 
   def initialize(school)
     @school = school
-    @roster = Hash.new
+    roster
   end
 
 end
