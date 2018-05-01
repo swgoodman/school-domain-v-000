@@ -1,14 +1,13 @@
 # code here!
 
 class School
-
-roster = []
-
   attr_reader :school
+
+  ROSTER = []
 
   def initialize(school)
     @school = school
-    roster
+    ROSTER
   end
 
 end
