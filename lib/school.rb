@@ -20,5 +20,10 @@ class School
     students_in_grade
   end
 
+  def sort(school)
+    @roster.each { |key,value| value.do |a,b| a.upcase <=> b.upcase }
+  end
+
+
 
 end
