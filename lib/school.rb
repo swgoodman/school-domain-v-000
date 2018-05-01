@@ -2,8 +2,8 @@
 
 class School
 
-def initialize=(name)
-  @school = school
+def initialize=(school_name)
+  @school = school_school_name
 end
 
 def school_name
