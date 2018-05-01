@@ -9,4 +9,8 @@ class School
     @school = school
   end
 
+  def roster=(roster)
+    @roster
+    ROSTER << roster
+
 end
