@@ -16,7 +16,7 @@ class School
 
   def grade(grade)
     students_in_grade = []
-    students_in_grade << Hash[grade, @roster[grade]]
+    @roaster.each { |key,value| students_in_grade << value if key == 'grade' }
     binding.pry
     puts "#{students_in_grade}"
   end
