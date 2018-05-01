@@ -22,6 +22,7 @@ class School
 
   def sort
     @roster.each do |key,value|
+      key.sort_by {|a1,a2| a1[1].to_i <=> a2[1].to_i }
       value.sort do |a,b|
         a.upcase <=> b.upcase
       end
