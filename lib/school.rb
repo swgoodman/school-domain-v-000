@@ -18,8 +18,8 @@ class School
     students_in_grade = []
     if :h == grade
       students_in_grade << @roster[:h]
-      binding.pry
       puts "#{students_in_grade}"
+      binding.pry
     end
   end
 
