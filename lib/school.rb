@@ -3,7 +3,7 @@
 class School
   attr_reader :school
 
-  ROSTER = []
+  ROSTER = Hash.new
 
   def initialize(school)
     @school = school
