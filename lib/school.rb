@@ -24,7 +24,7 @@ class School
     @roster.each do |key,value|
       value = value.sort.flatten!
       @roster
-      binding.pry
+      #binding.pry
     end
   end
 
