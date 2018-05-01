@@ -18,6 +18,7 @@ class School
       if k == "grade"
         puts "#{v}"
       end
+    end
   end
 
 
