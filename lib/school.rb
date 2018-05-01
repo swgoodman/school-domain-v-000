@@ -2,12 +2,14 @@
 
 class School
 
-def initialize=(school_name)
-  @school = school_school_name
-end
+  attr_reader :name
 
-def school_name
-  @school
-end
+  def initialize=(name)
+    @school = name
+  end
+
+
+
+
 
 end
