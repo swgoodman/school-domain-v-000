@@ -18,6 +18,8 @@ class School
       if grade == grade
         puts "#{students}"
       end
+    end
+  end
 
 
   end
