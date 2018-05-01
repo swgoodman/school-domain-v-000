@@ -14,8 +14,8 @@ class School
   end
 
   def grade(grade)
-    @roster.each do |grade, students|
-      if grade == grade
+    @roster.each do |key, value|
+      if key == grade
         puts "#{students}"
       end
     end
