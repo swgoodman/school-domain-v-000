@@ -14,10 +14,9 @@ class School
   end
 
   def grade(grade)
-    roster.each do |hash, grade|
-      if grade = :grade
-        value puts ""
-
+    @roster.each do |grade, students|
+      if grade == grade
+        puts "#{students}"
       end
 
 
