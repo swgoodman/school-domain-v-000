@@ -18,7 +18,7 @@ class School
     students_in_grade = []
     @roster.each { |key,value| students_in_grade << value if key == grade }
     students_in_grade
-    binding.pry
+    #binding.pry
     puts "#{students_in_grade}"
   end
 
