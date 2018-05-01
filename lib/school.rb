@@ -2,6 +2,8 @@
 
 class School
 
+roster = []
+
   attr_reader :school
 
   def initialize(school)
