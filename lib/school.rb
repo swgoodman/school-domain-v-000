@@ -6,7 +6,7 @@ class School
 
   def initializes(school)
     @school = school
-    @roster = {}
+    @roster = Hash.new
   end
 
 end
