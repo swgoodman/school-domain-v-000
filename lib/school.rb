@@ -15,8 +15,6 @@ class School
 
   def grade(grade)
     @roster.select { |k,v| k == "grade"}
-      end
-    end
   end
 
 
