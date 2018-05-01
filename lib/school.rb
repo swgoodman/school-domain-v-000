@@ -26,6 +26,7 @@ class School
         a.upcase <=> b.upcase
       end
     end
+    @roster
   end
 
 
