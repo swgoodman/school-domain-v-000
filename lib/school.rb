@@ -15,12 +15,13 @@ class School
   end
 
   def grade(grade)
+    students_in_grade = []
     if :h == grade
       puts "#{@roster[:h]}"
     end
   end
 
-    # students_in_grade = []
+
     # students_in_grade << Hash[grade, @roster[grade]]
     # binding.pry
     # puts "#{students_in_grade}"
