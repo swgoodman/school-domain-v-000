@@ -14,7 +14,9 @@ class School
   end
 
   def grade(grade)
-    @roster.select { |k,v| k == "grade"}
+    @roster.select do |k,v|
+      if k == "grade"
+        puts "#{v}"
   end
 
 
